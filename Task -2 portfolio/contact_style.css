@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #378345;
+    padding: 20px 20px;
+}
+.navbar .name{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.navbar .option a{
+    color: white;
+    margin: 15px 15px;
+
+}
+.navbar .contact a{
+    color: #378345;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.contact-div{
+    display: flex;
+    flex: 1;
+    
+    
+} 
+.left{
+    flex: 1;
+    padding: 80px;
+    
+}
+.left form{
+    width: 50%;
+    padding: 15px;
+    
+}
+#frm {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border: 2px solid #378345;
+    border-radius: 5px;
+}
+#btn{
+    padding: 8px 15px;
+    border: 2px solid #378345;
+    border-radius: 5px;
+}
+
+.right{
+    padding: 80px;
+}
+img{
+    height: 320px;
+    width: 200px;
+    border: 5px solid black;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #378345;
+    padding: 10px 15px;
+}

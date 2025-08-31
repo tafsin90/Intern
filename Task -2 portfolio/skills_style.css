@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #378345;
+    padding: 20px 20px;
+}
+.navbar .name{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.navbar .option a{
+    color: white;
+    margin: 15px 15px;
+
+}
+.navbar .contact a{
+    color: #378345;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.skills{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 80px;
+}
+.skills h1{
+    color: #378345;
+}
+.skills .mySkills .skillBox{
+    background-color: #378345;
+    color: white;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.skills .mySkills{
+    display: flex;
+    gap: 15px;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #378345;
+    padding: 10px 15px;
+}
